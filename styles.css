@@ -1,3 +1,15 @@
+
+@font-face {
+ font-family: 'albert-sans'; /* Gewünschter Name */
+ src: url('font/albert-sans-regular.tff') 
+           format('truetype');
+}
+
+
+
+
+
+
 /* SLIDESHOW */
 slides {
 	display: none;
