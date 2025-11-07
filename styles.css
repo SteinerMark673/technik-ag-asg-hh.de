@@ -1,7 +1,12 @@
 
 @font-face {
- font-family: 'albert-sans'; /* Gewünschter Name */
+ font-family: 'albertsans'; /* Gewünschter Name */
  src: url('font/AlbertSans-Regular.ttf') 
+           format('truetype');
+}
+@font-face {
+ font-family: 'albertsans-bold'; /* Gewünschter Name */
+ src: url('font/AlbertSans-Bold.ttf') 
            format('truetype');
 }
 
@@ -34,7 +39,7 @@ slides {
 }
 
 body {
-  font-family: albert-sans;
+  font-family: albertsans;
 	font-color: #3e143a;
   padding: 10px;
   background: #f3f0e8;
@@ -49,6 +54,7 @@ body {
 
 .header h1 {
   font-size: 50px;
+  font-family: albertsans-bold;
 }
 
 /* Style the top navigation bar */
