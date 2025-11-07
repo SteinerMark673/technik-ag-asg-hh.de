@@ -45,6 +45,10 @@ body {
   background: #f3f0e8;
 }
 
+h2 {
+	font-family: albertsans-bold;
+}
+
 /* Header/Blog Title */
 .header {
   padding: 30px;
