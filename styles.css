@@ -9,8 +9,11 @@
  src: url('font/AlbertSans-Bold.ttf') 
            format('truetype');
 }
-
-
+@font-face {
+ font-family: 'albertsans-semibold'; /* Gewünschter Name */
+ src: url('font/AlbertSans-SemiBold.ttf') 
+           format('truetype');
+}
 
 
 
@@ -46,11 +49,11 @@ body {
 }
 
 h2 {
-	font-family: albertsans-bold;
+	font-family: albertsans-semibold;
 }
 
 h3 {
-	font-family: albertsans-bold;
+	font-family: albertsans-semibold;
 }
 
 /* Header/Blog Title */
